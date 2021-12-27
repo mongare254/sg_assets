@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'user/css/home.css' %}">
+{% endblock %}
+{% block content %}
+<div class="table_holder">
+    <table class="receive_table">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Sender</th>
+                <th>Bureau</th>
+                <th>Reason</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dom</td>
+                <td>6000</td>
+                <td>6000</td>
+                <td>6000</td>
+                <td>6000</td>
+            </tr>
+            <tr class="active-row">
+                <td>Imac Machine</td>
+                <td>William Onchuru</td>
+                <td>Mombasa Road</td>
+                <td>For Repair</td>
+            </tr>
+            <tr>
+                <td>Imac Machine</td>
+                <td>William Onchuru</td>
+                <td>Mombasa Road</td>
+                <td>For Repair</td>
+            </tr>
+            <tr >
+                <td>Imac Machine</td>
+                <td>William Onchuru</td>
+                <td>Mombasa Road</td>
+                <td>For Repair</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
+{% block js %}
+    
+{% endblock %}
